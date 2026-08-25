@@ -45,11 +45,7 @@ The packaged manuscript does **not** claim external results that were not execut
 TRACE-R reconstructs and evaluates preserved evidence. It does not manufacture missing evidence, determine legal liability, guarantee court admissibility, or treat cryptographic integrity as proof of semantic truth. AutoResponsibilityBench results validate controlled behavior, not court accuracy.
 
 
-## DOI and citation
-
-Reserved Zenodo DOI: **10.5281/zenodo.22098853**
-
-Suggested citation:
+## Citation
 
 Akhtar, M. A. K. (2026). Responsibility as an Error-Correcting Information Problem: Optimal Responsibility Codes, Legal Observability, and Verifiable Evidence in Autonomous Digital Systems. Zenodo. https://doi.org/10.5281/zenodo.22098853
 

@@ -1,7 +1,0 @@
-architecture,cut_size,channels,abstention,mean_effective_observability
-base,1,authorization,1.0,0.0
-base,1,action,1.0,0.0
-base,1,identity,1.0,0.0
-witness-hardened,2,authorization|receipt,1.0,0.0
-witness-hardened,2,action|receipt,1.0,0.0
-witness-hardened,2,identity|receipt,1.0,0.0

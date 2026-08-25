@@ -1,7 +1,0 @@
-held_out_family,accuracy,abstention,observability
-credential_misuse,0.0,0.1,0.8999999959826772
-human_override,0.675,0.325,0.6749983567330418
-ignored_warning,0.0,0.475,0.4240554434464732
-log_suppression,0.725,0.275,0.7249910064233659
-multi_agent_chain,0.0,0.325,0.6749999999404105
-unauthorized_delegation,0.0,0.45,0.5499999999514456

@@ -1,7 +1,0 @@
-architecture,budget,capacity,attack_abstention
-base,0,0.9999951622203621,0.0
-base,1,0.0,1.0
-base,2,0.0,1.0
-witness-hardened,0,0.9999951622203621,0.0
-witness-hardened,1,0.8966105128156052,0.1
-witness-hardened,2,0.0,1.0

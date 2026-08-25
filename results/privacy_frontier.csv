@@ -1,0 +1,12 @@
+channels,n_channels,cost,privacy_cost,storage_cost,latency_cost,observability,accuracy,abstention
+model_version,1,0.06666666666666667,0.08,0.08,0.04,0.0,0.0,1.0
+action|authorization|identity|model_version|warning,5,1.2199999999999998,2.03,1.1099999999999999,0.52,0.09999999999117191,0.1,0.9
+action|authorization|identity|permission,4,1.2333333333333332,2.15,1.05,0.5,0.19999999998234383,0.2,0.8
+action|authorization|identity|permission|policy,5,1.3966666666666665,2.3000000000000003,1.2999999999999998,0.59,0.39999999996468766,0.4,0.6
+action|authorization|identity|model_version|permission|policy|warning,7,1.6099999999999999,2.58,1.54,0.71,0.49999999995585964,0.5,0.5
+action|authorization|delegation|identity|permission|policy,6,1.663333333333333,2.75,1.5,0.74,0.5999978890671765,0.6,0.4
+action|authorization|identity|intervention|permission|policy,6,1.67,2.7800000000000002,1.52,0.71,0.5999999999470318,0.6,0.4
+action|authorization|identity|intervention|permission|policy|warning,7,1.8166666666666664,2.98,1.6799999999999997,0.7899999999999999,0.6999999999382036,0.7,0.3
+action|authorization|identity|intervention|model_version|permission|policy|warning,8,1.883333333333333,3.0600000000000005,1.7599999999999998,0.83,0.7999999999293756,0.8,0.2
+action|authorization|delegation|identity|intervention|permission|policy|warning,8,2.0833333333333335,3.43,1.88,0.94,0.8999978890406924,0.9,0.1
+action|authorization|delegation|identity|intervention|model_version|permission|policy|warning,9,2.15,3.5100000000000002,1.96,0.98,0.9999971188514013,1.0,0.0

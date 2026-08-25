@@ -1,0 +1,449 @@
+{
+  "optimal_code_examples": [
+    {
+      "erasures_b": 0,
+      "corruptions_t": 0,
+      "required_distance": 1,
+      "success": 1,
+      "channels": 3,
+      "distance": 1,
+      "code_rate": 0.9357849740192014,
+      "normalized_cost": 3.1500000000000004,
+      "guarantee": 1,
+      "selected_claims": "claim_0010111|claim_0011010|claim_0111001"
+    },
+    {
+      "erasures_b": 0,
+      "corruptions_t": 1,
+      "required_distance": 3,
+      "success": 1,
+      "channels": 6,
+      "distance": 3,
+      "code_rate": 0.4678924870096007,
+      "normalized_cost": 6.3,
+      "guarantee": 1,
+      "selected_claims": "claim_0001101|claim_0010111|claim_0011010|claim_0100011|claim_0101110|claim_0110100"
+    },
+    {
+      "erasures_b": 1,
+      "corruptions_t": 0,
+      "required_distance": 2,
+      "success": 1,
+      "channels": 4,
+      "distance": 2,
+      "code_rate": 0.701838730514401,
+      "normalized_cost": 4.2,
+      "guarantee": 1,
+      "selected_claims": "claim_0000111|claim_0011010|claim_0101100|claim_0110001"
+    },
+    {
+      "erasures_b": 1,
+      "corruptions_t": 1,
+      "required_distance": 4,
+      "success": 1,
+      "channels": 7,
+      "distance": 4,
+      "code_rate": 0.4010507031510863,
+      "normalized_cost": 7.35,
+      "guarantee": 1,
+      "selected_claims": "claim_0001101|claim_0010111|claim_0011010|claim_0100011|claim_0101110|claim_0110100|claim_0111001"
+    },
+    {
+      "erasures_b": 2,
+      "corruptions_t": 0,
+      "required_distance": 3,
+      "success": 1,
+      "channels": 6,
+      "distance": 3,
+      "code_rate": 0.4678924870096007,
+      "normalized_cost": 6.3,
+      "guarantee": 1,
+      "selected_claims": "claim_0001101|claim_0010111|claim_0011010|claim_0100011|claim_0101110|claim_0110100"
+    },
+    {
+      "erasures_b": 2,
+      "corruptions_t": 1,
+      "required_distance": 5,
+      "success": 1,
+      "channels": 10,
+      "distance": 5,
+      "code_rate": 0.28073549220576044,
+      "normalized_cost": 10.500000000000002,
+      "guarantee": 1,
+      "selected_claims": "claim_0000111|claim_0001101|claim_0010111|claim_0011010|claim_0100011|claim_0101010|claim_0101110|claim_0110011|claim_0110100|claim_0111001"
+    },
+    {
+      "erasures_b": 3,
+      "corruptions_t": 0,
+      "required_distance": 4,
+      "success": 1,
+      "channels": 7,
+      "distance": 4,
+      "code_rate": 0.4010507031510863,
+      "normalized_cost": 7.35,
+      "guarantee": 1,
+      "selected_claims": "claim_0001101|claim_0010111|claim_0011010|claim_0100011|claim_0101110|claim_0110100|claim_0111001"
+    },
+    {
+      "erasures_b": 3,
+      "corruptions_t": 1,
+      "required_distance": 6,
+      "success": 1,
+      "channels": 11,
+      "distance": 6,
+      "code_rate": 0.25521408382341854,
+      "normalized_cost": 11.550000000000002,
+      "guarantee": 1,
+      "selected_claims": "claim_0001011|claim_0001101|claim_0010101|claim_0010111|claim_0011010|claim_0100011|claim_0100110|claim_0101100|claim_0110100|claim_0111001|claim_0111010"
+    }
+  ],
+  "transferability": {
+    "spearman_rho": 0.06761234037828133,
+    "spearman_p": 0.8987360319248712,
+    "pearson_r": 0.18617772347364528,
+    "pearson_p": 0.7239600743866719,
+    "n_families": 6
+  },
+  "far_nonidentifiable": {
+    "causal": 1.0,
+    "outcome": 1.0,
+    "rule": 1.0,
+    "scm": 1.0,
+    "trace-r": 0.0
+  },
+  "aurc": 0.0010002098547425454,
+  "identifiability_interval": [
+    {
+      "retention": 0.3,
+      "n": 2200,
+      "hypotheses": 6,
+      "entropy_bits": 2.321928094887362,
+      "mutual_information_bits": 0.4798529345289348,
+      "legal_observability": 0.20666141022433887,
+      "fano_lower_bound": 0.42751473798320727,
+      "exact_bayes_error": 0.5381818181818182,
+      "bhattacharyya_upper_bound": 1.0
+    },
+    {
+      "retention": 0.4,
+      "n": 2200,
+      "hypotheses": 6,
+      "entropy_bits": 2.321928094887362,
+      "mutual_information_bits": 0.5453960307824691,
+      "legal_observability": 0.23488928532428413,
+      "fano_lower_bound": 0.4021592072026837,
+      "exact_bayes_error": 0.5268181818181819,
+      "bhattacharyya_upper_bound": 1.0
+    },
+    {
+      "retention": 0.5,
+      "n": 2200,
+      "hypotheses": 6,
+      "entropy_bits": 2.321928094887362,
+      "mutual_information_bits": 0.6497053894242056,
+      "legal_observability": 0.27981288087895034,
+      "fano_lower_bound": 0.3618068389912934,
+      "exact_bayes_error": 0.504090909090909,
+      "bhattacharyya_upper_bound": 1.0
+    },
+    {
+      "retention": 0.6,
+      "n": 2200,
+      "hypotheses": 6,
+      "entropy_bits": 2.3219280948873626,
+      "mutual_information_bits": 0.7686649244381956,
+      "legal_observability": 0.33104596396878677,
+      "fano_lower_bound": 0.3157870089238156,
+      "exact_bayes_error": 0.47363636363636363,
+      "bhattacharyya_upper_bound": 1.0
+    },
+    {
+      "retention": 0.7,
+      "n": 2200,
+      "hypotheses": 6,
+      "entropy_bits": 2.321928094887362,
+      "mutual_information_bits": 0.871426140717487,
+      "legal_observability": 0.3753028108993876,
+      "fano_lower_bound": 0.27603354393133583,
+      "exact_bayes_error": 0.4563636363636363,
+      "bhattacharyya_upper_bound": 1.0
+    },
+    {
+      "retention": 0.8,
+      "n": 2200,
+      "hypotheses": 6,
+      "entropy_bits": 2.321928094887362,
+      "mutual_information_bits": 1.000231504072599,
+      "legal_observability": 0.43077626145056,
+      "fano_lower_bound": 0.2262048275305456,
+      "exact_bayes_error": 0.4236363636363636,
+      "bhattacharyya_upper_bound": 1.0
+    },
+    {
+      "retention": 0.9,
+      "n": 2200,
+      "hypotheses": 6,
+      "entropy_bits": 2.3219280948873626,
+      "mutual_information_bits": 1.1497636093040773,
+      "legal_observability": 0.4951762338531214,
+      "fano_lower_bound": 0.1683579128500573,
+      "exact_bayes_error": 0.40818181818181787,
+      "bhattacharyya_upper_bound": 0.9844517820576492
+    },
+    {
+      "retention": 1.0,
+      "n": 2200,
+      "hypotheses": 6,
+      "entropy_bits": 2.321928094887362,
+      "mutual_information_bits": 1.3219280948873622,
+      "legal_observability": 0.5693234419266069,
+      "fano_lower_bound": 0.10175559829607284,
+      "exact_bayes_error": 0.40000000000000013,
+      "bhattacharyya_upper_bound": 0.7000000000000001
+    }
+  ],
+  "adaptive_capacity": [
+    {
+      "architecture": "base",
+      "budget": 0,
+      "adaptive_capacity": 0.9999981998669571
+    },
+    {
+      "architecture": "base",
+      "budget": 1,
+      "adaptive_capacity": 0.0
+    },
+    {
+      "architecture": "base",
+      "budget": 2,
+      "adaptive_capacity": 0.0
+    },
+    {
+      "architecture": "base",
+      "budget": 3,
+      "adaptive_capacity": 0.0
+    },
+    {
+      "architecture": "witness-hardened",
+      "budget": 0,
+      "adaptive_capacity": 0.9999981998669571
+    },
+    {
+      "architecture": "witness-hardened",
+      "budget": 1,
+      "adaptive_capacity": 0.89662199811909
+    },
+    {
+      "architecture": "witness-hardened",
+      "budget": 2,
+      "adaptive_capacity": 0.0
+    },
+    {
+      "architecture": "witness-hardened",
+      "budget": 3,
+      "adaptive_capacity": 0.0
+    }
+  ],
+  "crypto": [
+    {
+      "n": 1500,
+      "payload_bytes": 128,
+      "sign_median_ms": 0.045868,
+      "sign_p95_ms": 0.053939,
+      "verify_median_ms": 0.1197835,
+      "verify_p95_ms": 0.127509,
+      "record_bytes_mean": 388.52,
+      "verify_per_second": 8273.39940319337,
+      "merkle_ms_total": 7.905662,
+      "merkle_root": "c461b2ca8873f1555dc163d007c7f46b2b4067379814c1f57c08beededd3e73d"
+    },
+    {
+      "n": 1500,
+      "payload_bytes": 256,
+      "sign_median_ms": 0.046351,
+      "sign_p95_ms": 0.053621,
+      "verify_median_ms": 0.1201395,
+      "verify_p95_ms": 0.127583,
+      "record_bytes_mean": 516.52,
+      "verify_per_second": 8254.045476896159,
+      "merkle_ms_total": 8.326545,
+      "merkle_root": "b155717ecff889848c7180b331186d131b9a05d3766f8c79a73a1e9184962c58"
+    },
+    {
+      "n": 1500,
+      "payload_bytes": 512,
+      "sign_median_ms": 0.047655,
+      "sign_p95_ms": 0.055716,
+      "verify_median_ms": 0.12093,
+      "verify_p95_ms": 0.128787,
+      "record_bytes_mean": 772.52,
+      "verify_per_second": 8192.091034185629,
+      "merkle_ms_total": 9.247241,
+      "merkle_root": "0412dd864ae1f56e22b8f5e42fc0dc22e82c7a516055988a773dd0237b3867b8"
+    },
+    {
+      "n": 1500,
+      "payload_bytes": 1024,
+      "sign_median_ms": 0.0503535,
+      "sign_p95_ms": 0.058469,
+      "verify_median_ms": 0.1228945,
+      "verify_p95_ms": 0.13013,
+      "record_bytes_mean": 1284.52,
+      "verify_per_second": 8088.666364524421,
+      "merkle_ms_total": 11.378865,
+      "merkle_root": "e11a105aa8093d0ba214fbc0cbb4982bdfbc0ab3dc3201d5942eaa612d265b78"
+    }
+  ],
+  "byzantine": [
+    {
+      "witness_domains_m": 3,
+      "malicious_domains_f": 0,
+      "majority_recovery": 1,
+      "byzantine_margin": 3
+    },
+    {
+      "witness_domains_m": 3,
+      "malicious_domains_f": 1,
+      "majority_recovery": 1,
+      "byzantine_margin": 1
+    },
+    {
+      "witness_domains_m": 3,
+      "malicious_domains_f": 2,
+      "majority_recovery": 0,
+      "byzantine_margin": -1
+    },
+    {
+      "witness_domains_m": 5,
+      "malicious_domains_f": 0,
+      "majority_recovery": 1,
+      "byzantine_margin": 5
+    },
+    {
+      "witness_domains_m": 5,
+      "malicious_domains_f": 1,
+      "majority_recovery": 1,
+      "byzantine_margin": 3
+    },
+    {
+      "witness_domains_m": 5,
+      "malicious_domains_f": 2,
+      "majority_recovery": 1,
+      "byzantine_margin": 1
+    },
+    {
+      "witness_domains_m": 5,
+      "malicious_domains_f": 3,
+      "majority_recovery": 0,
+      "byzantine_margin": -1
+    },
+    {
+      "witness_domains_m": 7,
+      "malicious_domains_f": 0,
+      "majority_recovery": 1,
+      "byzantine_margin": 7
+    },
+    {
+      "witness_domains_m": 7,
+      "malicious_domains_f": 1,
+      "majority_recovery": 1,
+      "byzantine_margin": 5
+    },
+    {
+      "witness_domains_m": 7,
+      "malicious_domains_f": 2,
+      "majority_recovery": 1,
+      "byzantine_margin": 3
+    },
+    {
+      "witness_domains_m": 7,
+      "malicious_domains_f": 3,
+      "majority_recovery": 1,
+      "byzantine_margin": 1
+    },
+    {
+      "witness_domains_m": 7,
+      "malicious_domains_f": 4,
+      "majority_recovery": 0,
+      "byzantine_margin": -1
+    },
+    {
+      "witness_domains_m": 9,
+      "malicious_domains_f": 0,
+      "majority_recovery": 1,
+      "byzantine_margin": 9
+    },
+    {
+      "witness_domains_m": 9,
+      "malicious_domains_f": 1,
+      "majority_recovery": 1,
+      "byzantine_margin": 7
+    },
+    {
+      "witness_domains_m": 9,
+      "malicious_domains_f": 2,
+      "majority_recovery": 1,
+      "byzantine_margin": 5
+    },
+    {
+      "witness_domains_m": 9,
+      "malicious_domains_f": 3,
+      "majority_recovery": 1,
+      "byzantine_margin": 3
+    },
+    {
+      "witness_domains_m": 9,
+      "malicious_domains_f": 4,
+      "majority_recovery": 1,
+      "byzantine_margin": 1
+    },
+    {
+      "witness_domains_m": 9,
+      "malicious_domains_f": 5,
+      "majority_recovery": 0,
+      "byzantine_margin": -1
+    },
+    {
+      "witness_domains_m": 11,
+      "malicious_domains_f": 0,
+      "majority_recovery": 1,
+      "byzantine_margin": 11
+    },
+    {
+      "witness_domains_m": 11,
+      "malicious_domains_f": 1,
+      "majority_recovery": 1,
+      "byzantine_margin": 9
+    },
+    {
+      "witness_domains_m": 11,
+      "malicious_domains_f": 2,
+      "majority_recovery": 1,
+      "byzantine_margin": 7
+    },
+    {
+      "witness_domains_m": 11,
+      "malicious_domains_f": 3,
+      "majority_recovery": 1,
+      "byzantine_margin": 5
+    },
+    {
+      "witness_domains_m": 11,
+      "malicious_domains_f": 4,
+      "majority_recovery": 1,
+      "byzantine_margin": 3
+    },
+    {
+      "witness_domains_m": 11,
+      "malicious_domains_f": 5,
+      "majority_recovery": 1,
+      "byzantine_margin": 1
+    },
+    {
+      "witness_domains_m": 11,
+      "malicious_domains_f": 6,
+      "majority_recovery": 0,
+      "byzantine_margin": -1
+    }
+  ]
+}

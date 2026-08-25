@@ -1,0 +1,7 @@
+held_out_family,responsible_actor,source_families,js_divergence,responsibility_transferability,exact_accuracy,abstention,mean_effective_observability
+unauthorized_delegation,agent_A,credential_misuse,0.8433729528973455,0.15662704710265452,0.0,0.35555555555555557,0.6444444443875524
+credential_misuse,agent_A,unauthorized_delegation,0.7877885614478085,0.2122114385521915,0.0,0.3,0.6999999992983756
+ignored_warning,operator,human_override|multi_agent_chain|log_suppression,0.8098458252005218,0.19015417479947816,0.0,0.4666666666666667,0.5179243866234996
+human_override,operator,ignored_warning|multi_agent_chain|log_suppression,0.884499046025536,0.11550095397446403,0.6222222222222222,0.37777777777777777,0.6222198215203655
+multi_agent_chain,operator,ignored_warning|human_override|log_suppression,0.9662165037326996,0.03378349626730037,0.0,0.3888888888888889,0.611111111057162
+log_suppression,operator,ignored_warning|human_override|multi_agent_chain,0.7280551757737102,0.27194482422628985,0.4777777777777778,0.5222222222222223,0.47777493918280084

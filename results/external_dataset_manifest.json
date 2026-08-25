@@ -1,0 +1,37 @@
+{
+  "Who&When": {
+    "source": "https://huggingface.co/datasets/Kevin355/Who_and_When",
+    "expected_total_rows": 184,
+    "purpose": "external multi-agent failure-attribution trace validation"
+  },
+  "AgentDojo": {
+    "source": "https://github.com/ethz-spylab/agentdojo",
+    "purpose": "external tool-mediated agent security trace validation"
+  },
+  "GRADE": {
+    "source": "https://github.com/yzhao062/grade",
+    "purpose": "external execution/dependency graph interoperability"
+  },
+  "MP-Bench": {
+    "source": "https://github.com/adobe-research/multi-agent-eval-bench",
+    "reported_logs": 289,
+    "reported_annotators_per_instance": 3,
+    "purpose": "expert multi-perspective failure-attribution validation"
+  },
+  "TraceElephant": {
+    "source": "https://github.com/TraceElephant/TraceElephant",
+    "purpose": "fully observable multi-agent failure attribution"
+  },
+  "AgenTracer": {
+    "source": "https://arxiv.org/abs/2509.03312",
+    "purpose": "counterfactual-replay failure attribution baseline"
+  },
+  "CHIEF": {
+    "source": "https://arxiv.org/abs/2602.23701",
+    "purpose": "hierarchical causal-graph attribution baseline"
+  },
+  "Proof-or-Stop": {
+    "source": "https://arxiv.org/abs/2607.14890",
+    "purpose": "evidence-gated lifecycle-control comparison"
+  }
+}

@@ -51,7 +51,7 @@ Reserved Zenodo DOI: **10.5281/zenodo.22098853**
 
 Suggested citation:
 
-#Akhtar, M. A. K. (2026). Responsibility as an Error-Correcting Information Problem: Optimal Responsibility Codes, Legal Observability, and Verifiable Evidence in Autonomous Digital Systems. Zenodo. https://doi.org/10.5281/zenodo.22098853
+Akhtar, M. A. K. (2026). Responsibility as an Error-Correcting Information Problem: Optimal Responsibility Codes, Legal Observability, and Verifiable Evidence in Autonomous Digital Systems. Zenodo. https://doi.org/10.5281/zenodo.22098853
 
 ## License
 

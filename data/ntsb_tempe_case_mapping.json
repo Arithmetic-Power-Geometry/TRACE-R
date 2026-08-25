@@ -1,0 +1,27 @@
+{
+  "case": "NTSB HAR-19/03, Tempe automated-driving crash (2018; report 2019)",
+  "source_url": "https://www.ntsb.gov/investigations/AccidentReports/Reports/HAR1903.pdf",
+  "purpose": "illustrative evidence-class mapping only; no legal liability allocation",
+  "claims": [
+    {
+      "class": "source_supported",
+      "claim": "Developmental ADS controlled the test vehicle with a human operator present."
+    },
+    {
+      "class": "source_supported",
+      "claim": "NTSB identified operator distraction as probable cause and organizational oversight/safety-risk factors as contributing."
+    },
+    {
+      "class": "derived",
+      "claim": "Timeline and relation graph assembled only from public report propositions."
+    },
+    {
+      "class": "inferred",
+      "claim": "Whether preserved control or oversight predicates satisfy a jurisdiction-specific legal duty."
+    },
+    {
+      "class": "not_identifiable",
+      "claim": "Universal numerical legal-responsibility allocation among all actors."
+    }
+  ]
+}

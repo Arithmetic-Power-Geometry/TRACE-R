@@ -1,0 +1,26 @@
+name: Reproduce Responsibility by Construction
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+  pull_request:
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --upgrade pip
+      - run: pip install -r requirements.txt
+      - run: PYTHONPATH=src pytest -q
+      - run: PYTHONPATH=src python scripts/run_benchmark.py
+      - run: PYTHONPATH=src python scripts/run_extended_experiments.py
+      - run: PYTHONPATH=src python scripts/run_resilience_experiments.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: reproduced-results
+          path: |
+            results/
+            figures/

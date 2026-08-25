@@ -1,13 +1,26 @@
 cff-version: 1.2.0
+
 title: "TRACE-R: Error-Correcting Responsibility Evidence for Autonomous Digital Systems"
-message: "If you use this software, please cite the associated Responsibility by Construction research record."
+
+message: "If you use TRACE-R, please cite the associated research preprint."
+
 type: software
+
 authors:
   - family-names: Akhtar
     given-names: Mohammad Amir Khusru
+
 date-released: 2026-08-25
+
 license: Apache-2.0
-identifiers:
-  - type: doi
-    value: 10.5281/zenodo.22098853
-    description: "Reserved Zenodo DOI for the associated research record"
+
+references:
+  - type: article
+    title: "Responsibility as an Error-Correcting Information Problem: Optimal Responsibility Codes, Legal Observability, and Verifiable Evidence in Autonomous Digital Systems"
+    authors:
+      - family-names: Akhtar
+        given-names: Mohammad Amir Khusru
+    year: 2026
+    publisher:
+      name: Zenodo
+    doi: 10.5281/zenodo.22098853
